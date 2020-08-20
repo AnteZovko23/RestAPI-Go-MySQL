@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.customSelect/0.5.1/jquery.customSelect.min.js'></script>
+      <link rel="stylesheet" type="text/css" href="/assets/CSS/addForm.css">
+      
+      
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+
+    <title>Add</title>
+
+</head>
+<body>
+
+        <form action='/all' target="_blank" method="POST" class='form'>
+                <p class='field required half'>
+                  <label class='label' for='email'>Name</label>
+                  <input required class='text-input' id='email' name='Name' type="text">
+                </p>
+                <p class='field half'>
+                  <label class='label' for='phone'>Description</label>
+                  <input required class='text-input' id='phone' name='Description' type="text">
+                </p>
+                <p class='field half required error'>
+                  <label class='label' for='login'>Category</label>
+                  <input required class='text-input' id='login' name='Category' type='text'>
+                </p>
+                <p class='field half required'>
+                  <label class='label' for='password'>Barcode</label>
+                  <input required class='text-input' id='password' name='Barcode' type="text">
+                </p>
+                <div class='field'>
+                  <label class='label'>Table</label>
+                  <ul class='checkboxes'>
+                    <li class='checkbox'>
+                      <input selected class='checkbox-input'  id='choice-0' name='table' type='checkbox' value='Computers'>
+                      <label class='checkbox-label' for='choice-0'>Computers</label>
+                    </li>
+                    <li class='checkbox'>
+                      <input class='checkbox-input' id='choice-1' name='table' type='checkbox' value='Furniture'>
+                      <label class='checkbox-label' for='choice-1'>Furniture</label>
+                    </li>
+                    <li class='checkbox'>
+                      <input class='checkbox-input' id='choice-2' name='table' type='checkbox' value='Printers'>
+                      <label class='checkbox-label' for='choice-2'>Printers</label>
+                    </li>
+                    <li class='checkbox'>
+                      <input class='checkbox-input' id='choice-3' name='table' type='checkbox' value='Supplies'>
+                      <label class='checkbox-label' for='choice-3'>Supplies</label>
+                    </li>
+                    <li class='checkbox'>
+                      <input class='checkbox-input' id='choice-4' name='table' type='checkbox' value='Warehouse'>
+                      <label class='checkbox-label' for='choice-4'>Warehouse</label>
+                    </li>
+                  </ul>
+                </div>
+                <p class='field half'>
+                  <input class='button' type='submit' value='Send'>
+                </p>
+              </form>
+              
+</body>
+
+<script src="/assets/JS/addForm.js"></script>
+
+
+
+</html>
