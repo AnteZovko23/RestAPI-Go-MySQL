@@ -27,6 +27,9 @@
 
 <h1 align="center">About the Repository:</h1>
 
+<br>
+<br>
+
 ## RestAPI Project
 - FullStack
 - GO (Lang) for the Backend
@@ -37,6 +40,8 @@
 - Gin-Gonic Framework for routing: https://github.com/gin-gonic/gin
 
 <br>
+<br>
+
 
 ## Project Screenshots
 
