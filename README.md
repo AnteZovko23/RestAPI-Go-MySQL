@@ -38,4 +38,35 @@
 
 <br>
 
-<img src = "/home/antezovko23/Pictures/as.png">
+## Project Screenshots
+
+<br>
+
+### Homepage (Search Engine)
+
+<img height="400" src="https://github.com/AnteZovko23/RestAPI-Go-MySQL/blob/master/screenshots/c.png">
+
+<br>
+
+### Login Screen
+
+<img height="400" src="https://github.com/AnteZovko23/RestAPI-Go-MySQL/blob/master/screenshots/b.png">
+
+<br>
+
+### Search Results Table
+
+<img height="400" src="https://github.com/AnteZovko23/RestAPI-Go-MySQL/blob/master/screenshots/a.png">
+
+<br>
+
+### Spotify Playlist Integration
+
+<img height="400" src="https://github.com/AnteZovko23/RestAPI-Go-MySQL/blob/master/screenshots/d.png">
+
+<br>
+
+### Homepage Menu
+
+<img height="400" src="https://github.com/AnteZovko23/RestAPI-Go-MySQL/blob/master/screenshots/e.png">
+
