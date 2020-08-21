@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// Thingslist ...
+// Thingslist comment
 var Thingslist []interface{}
 
 // Db base
